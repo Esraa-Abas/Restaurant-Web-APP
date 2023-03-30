@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    height: 50px;
+    margin-top: 1px;
+    padding: 1%;
+    display: flex;
+    font-size: 20px;
+    background-color:#005662;
+    flex: 20 ;
+}
+.logo{
+    justify-content: right;
+    align-content: center;
+}
+
+.navlinks {
+    flex: 1;
+    text-align: right;
+    justify-content: right;
+}
+.navlinks ul li {
+    list-style: none;
+    display: inline-block;
+    justify-content: left;
+    padding: 0%;
+    margin-top:0px;
+    
+    margin-right: 20px;
+}
+
+.navlinks  ul li a img {
+    justify-content: right;
+    font-size: 24px;
+    text-align: right;
+    display: inline-block;
+    padding: 20px;
+    }
+.header{
+    height: 800px;
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+    
+}
+.slogan h1{
+    text-align: center;
+    font-size: 60px;
+    color: honeydew;
+    background-color: #00838f;
+    font-family: cursive;
+}
+.mid {
+    
+    display: table;
+    
+    padding-top: 16px;
+    
+}
+.form,.img{
+    
+    vertical-align:middle;
+    display: table-cell;
+    
+    
+    
+}
+.form{
+    padding-left: 120px;
+    padding-top: 16px;
+    
+    
+}
+.form input {
+width: 400px;
+text-align: left;
+padding: 12px 20px;
+margin: 8px 0;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+border: 2px solid #00838f;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+border: 2px solid #00838f;
+margin: 8px 0;
+text-align:left;
+padding: 12px 20px;
+}
+
+.img{
+    padding-right: 160px;
+    border: 2px;
+    border-radius: 9px;
+    border-color: #00838f;
+    
+}
+.img:after{
+    content:"";
+    position: absolute;
+    height: 452px;
+    width: 8px;
+    right: 148px;
+    background-color: #00838f;
+    border-radius: 2px;
+
+}

@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.nav {
+    height: 65px;
+    margin-top: 1px;
+    padding: 1%;
+    display: flex;
+    background-color:#005662;
+    flex: 20 ;
+    
+    
+}
+.logo{
+    justify-content: right;
+    align-content: center;
+
+
+
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    
+    
+}
+.navlinks > div img{
+width: 120px;
+}
+.navlinks ul {
+    display: flex;
+    justify-content:space-between ;
+    width: 400px;
+    align-items: flex-end;
+}
+.navlinks ul a {
+    text-transform: uppercase;
+}
+ 
+
+
+
+.content{
+    text-align: center;
+    height:auto;
+    padding-bottom: 30px;
+    background-color: #4fb3bf;
+    
+    
+
+}
+.slogan{
+    background-color: #00838f;
+    padding-left: 2px;
+    font-size: 100px;
+    color :white;
+    font:bolder;
+    font-family: fantasy; 
+    
+}
+.caption{
+    padding-top: 20px;
+    font-size: 30px;
+    color:honeydew;
+    text-transform:capitalize ;
+}
+.meals{
+    display: flex;
+    margin: 25px 0px;
+    justify-content: space-evenly;
+
+}
+.meals .meal p{
+    font-size: 25px;
+    padding-top: 10px;
+    color: white;
+}
+
+button{
+    padding: 7px 30px;
+    margin-top: 30px;
+    color: white;
+    background-color: #005662;
+    border: none;
+    border-radius: 8px;
+}
+.about{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: honeydew;
+}
+.about img{
+    width: 100%;
+}
+.im{
+    width: 35%;
+}
+.info{
+    width: 55%;
+font-size: 20px;
+line-height: 25px;
+}
+.info::first-letter{
+font-family: cursive;
+font-weight: bold;
+font-size: 45px;
+color: #00838f;
+margin: 10PX;
+}
+.footer{
+    background-color: #4fb3bf;
+    padding: 15px 0px;
+    margin: 0px 0 0 0;
+    text-align: center;
+}
